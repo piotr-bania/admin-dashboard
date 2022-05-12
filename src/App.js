@@ -1,13 +1,11 @@
-
+import Home from "./pages/home/Home"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <div>
-          Ala ma kota.
+          <Home />
         </div>
-      </header>
     </div>
   )
 }
