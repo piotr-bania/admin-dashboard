@@ -21,10 +21,29 @@
             list-style: none;
             padding: 0;
             margin: 0;
+
+            .title {
+                color: var(--header);
+                font-size: 12px;
+                font-weight: bold;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            } 
+
+            li {
+                display: flex;
+                align-items: center;
+                padding-left: 5px;
+                cursor: pointer;
+            }
+        }
+        span {
+            padding-left: 5px;
+            padding-top: 5px;
         }
     }
 
     .icon {
-        color: var(--primary);
+        color: var(--secondary);
     }
 }
