@@ -3,28 +3,34 @@
     --background: #F5F6FF;
     --primary: #2C38E1;
     --secondary: #5E69F8;
+    --yellow: #E1D52D;
+    --red: #E12D39;
+    --green: #39E12D;
     --header: #2D2D2D;
     --text: #686868;
     --white: #FFFFFF;
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--white);
     color: var(--text);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: var(--header);
 }
 
 .home {
     display: flex;
+    padding: 20px;
 
     .homeContainer {
-        background-color: var(--white);
+        border-radius: 20px;
+        padding: 20px;
+        background-color: var(--background);
+        flex: 6;
     }
-}
-
-.logo {
-    color: var(--primary);
 }
