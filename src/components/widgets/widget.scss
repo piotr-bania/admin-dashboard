@@ -1,0 +1,18 @@
+.widget {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    min-height: 100px;
+    justify-content: space-between;
+    background-color: var(--white);
+    padding: 4px 8px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px -6px rgba(44, 56, 225, 0.16);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: var(--white);
+        background: linear-gradient(135deg, rgba(94,105,248,1) 0%, rgba(44,56,225,1) 100%);
+        box-shadow: 4px 4px 16px -6px rgba(44, 56, 225, 0.32);
+    }
+}
