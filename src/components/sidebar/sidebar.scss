@@ -1,7 +1,8 @@
 .sidebar {
-    flex: 2;
+    flex: 1;
     margin-right: 20px;
     min-height: 100vh;
+    min-width: 143px;
 
     .top {
         height: 50px;
@@ -10,9 +11,13 @@
         justify-content: center;
 
         .logo {
-            color: var(--primary);
-            font-size: 20px;
-            font-weight: bold;
+            color: var(--secondary);
+            font-size: var(--text-font-size);
+            cursor: pointer;
+
+            strong {
+                color: var(--primary);
+            }
         }
     }
 
@@ -23,27 +28,41 @@
             margin: 0;
 
             .title {
-                color: var(--header);
-                font-size: 12px;
+                color: var(--text);
+                font-size: var(--links-font-size);
                 font-weight: bold;
                 margin-top: 10px;
                 margin-bottom: 5px;
-            } 
+            }
 
             li {
                 display: flex;
                 align-items: center;
-                padding-left: 5px;
+                padding: 4px 8px;
                 cursor: pointer;
+                border-radius: 6px;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: var(--background);
+                    box-shadow: 4px 4px 10px -6px rgba(44, 56, 225, 0.16);
+
+                    span,
+                    .icon {
+                        color: var(--primary);
+                    }
+                }
             }
         }
+
         span {
+            color: var(--header);
             padding-left: 5px;
             padding-top: 5px;
         }
     }
 
     .icon {
-        color: var(--secondary);
+        color: var(--text);
     }
 }
