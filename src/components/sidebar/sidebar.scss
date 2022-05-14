@@ -1,8 +1,8 @@
 .sidebar {
     flex: 1;
     margin-right: 20px;
-    min-height: 100vh;
-    min-width: 143px;
+    // min-height: 100vh;
+    min-width: 144px;
 
     .top {
         height: 50px;
@@ -57,12 +57,37 @@
 
         span {
             color: var(--header);
-            padding-left: 5px;
+            padding-left: 10px;
             padding-top: 5px;
         }
     }
 
     .icon {
         color: var(--text);
+        font-size: var(--text-font-size);
+    }
+
+    .bottom {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .colorOption {
+            margin: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 6px;
+            border: 1px solid var(--text);
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:nth-child(1) {
+                background-color: var(--background);
+            }
+
+            &:nth-child(2) {
+                background-color: var(--header);
+            }
+        }
     }
 }
