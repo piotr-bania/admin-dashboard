@@ -1,13 +1,15 @@
 :root {
-  --background: rgba(240, 241, 253, 0.5);
   --primary: #2C38E1;
-  --secondary: #5A64E7;
-  --tertiary: #878EEE;
+  --secondary: #2D58E0;
+  --tertiary: #2D76E0;
+  --quaternary: #2D95E0;
+  --quinary: #2DB4E0;
+  --red: #FE4658;
+  --orange: #E1992D;
   --yellow: #E1D52D;
-  --red: #E12D39;
-  --green: #39E12D;
   --header: #2D2D2D;
   --text: #686868;
+  --off-white: #F0F1FD;
   --white: #FFFFFF;
   --links-font-size: 12px;
   --text-font-size: 20px;
@@ -35,9 +37,9 @@ h4 {
 .home .homeContainer {
   border-radius: 32px;
   padding: 20px 40px;
-  background-color: var(--background);
-  -webkit-box-shadow: 4px 4px 10px -6px rgba(44, 56, 225, 0.16);
-          box-shadow: 4px 4px 10px -6px rgba(44, 56, 225, 0.16);
+  background-color: var(--off-white);
+  -webkit-box-shadow: 0px 12px 48px -6px rgba(44, 56, 225, 0.06);
+          box-shadow: 0px 12px 48px -6px rgba(44, 56, 225, 0.06);
   -webkit-box-flex: 6;
       -ms-flex: 6;
           flex: 6;

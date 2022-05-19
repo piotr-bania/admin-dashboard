@@ -1,0 +1,113 @@
+.sidebar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 20px;
+  min-width: 144px;
+}
+
+.sidebar .top {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidebar .top .logo {
+  color: var(--secondary);
+  font-size: var(--text-font-size);
+  cursor: pointer;
+}
+
+.sidebar .top .logo strong {
+  color: var(--primary);
+}
+
+.sidebar .center ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .center ul .title {
+  color: var(--text);
+  font-size: var(--links-font-size);
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.sidebar .center ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar .center ul li:hover {
+  background-color: var(--off-white);
+  -webkit-box-shadow: 0px 12px 48px -6px rgba(44, 56, 225, 0.06);
+          box-shadow: 0px 12px 48px -6px rgba(44, 56, 225, 0.06);
+}
+
+.sidebar .center ul li:hover span {
+  color: var(--header);
+}
+
+.sidebar .center ul li:hover .icon {
+  color: var(--primary);
+}
+
+.sidebar .center span {
+  color: var(--text);
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.sidebar .icon {
+  color: var(--tertiary);
+  font-size: var(--text-font-size);
+}
+
+.sidebar .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.sidebar .bottom .colorOption {
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid var(--text);
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar .bottom .colorOption:nth-child(1) {
+  background-color: var(--off-white);
+}
+
+.sidebar .bottom .colorOption:nth-child(2) {
+  background-color: var(--header);
+}
+/*# sourceMappingURL=sidebar.css.map */
