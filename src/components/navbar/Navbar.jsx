@@ -38,7 +38,7 @@ const Navbar = () => {
                     </div>
                     <div className='item'>
                         <img
-                        src="https://lh3.googleusercontent.com/ogw/ADea4I7URJSAw3I6macIw8RCzETPU_FAkv2JYNOwxjM8=s32-c-mo"
+                        src="https://mir-s3-cdn-cf.behance.net/user/100/427506394244163.611bf3dde8078.png"
                         alt="avatar"
                         className='avatar' />
                     </div>
